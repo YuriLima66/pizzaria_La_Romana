@@ -1,9 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 * {
   margin: 0;
   padding: 0;
   font-size: 62.5%;
+  font-family: "Montserrat", sans-serif;
 }
-
+body {
+  background-color: #F50022;
+}
 .menu {
   display: flex;
   flex-direction: row;
@@ -11,14 +15,84 @@
   list-style: none;
   height: 8rem;
   font-size: 3rem;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #0000007a;
+  border: solid white 2px;
+  color: white;
+  width: 95vw;
+  margin: auto;
+  height: 75px;
+  margin-top: 45px;
+  margin-bottom: 35px;
+  border-radius: 10px;
+  transition: ease-in-out 0.7s;
 }
+.menu > li {
+  transition: ease-in-out 0.7s;
+}
+.menu > li > a:hover {
+  border-bottom: white solid 3px;
+  padding-bottom: 1.7rem;
+  transition: ease-in-out 0.2s;
+  text-decoration: none;
+  color: white;
+}
+a {
+  font-size: 2rem;
+  color: white;
+  text-decoration: none;
+}
+
 .logo {
-  width: 150px;
+  height: 125px;
+}
+.logo_carrinho {
+  height: 45px;
 }
 .carousel-item {
-  height: 60vh;
+  height: 75vh;
 }
 .carousel-item > a {
   text-align: none;
   color: white;
+}
+
+footer {
+  list-style-type: none;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.658);
+  color: white;
+  text-align: center;
+  border-top: 0.3rem solid white;
+  position: absolute;
+  bottom: -10rem;
+}
+
+footer > nav > ul > li > a {
+  color: white;
+  font-size: 1.8rem;
+  text-decoration: none;
+}
+
+footer > nav > ul > li > a:hover {
+  background-color: rgba(255, 255, 255, 0.932);
+  color: black;
+}
+
+.legenda_footer {
+  font-size: 1rem;
+}
+
+.legenda_footer > a {
+  font-size: 1rem;
+  color: white;
+  text-decoration: none;
+}
+
+.legenda_footer > a:hover {
+  background-color: white;
+  font-size: 110%;
+  color: red;
+  text-align: right;
 }
