@@ -6,7 +6,7 @@
   font-family: "Montserrat", sans-serif;
 }
 body {
-  background-color: #F50022;
+  background-color: #f50022;
 }
 .menu {
   display: flex;
@@ -60,10 +60,10 @@ a {
 
 footer {
   list-style-type: none;
-  width: 100vw;
+  width: 99vw;
   background-color: rgba(0, 0, 0, 0.658);
   color: white;
-  text-align: center;
+  text-align: left;
   border-top: 0.3rem solid white;
   position: absolute;
   bottom: -10rem;
@@ -73,6 +73,10 @@ footer > nav > ul > li > a {
   color: white;
   font-size: 1.8rem;
   text-decoration: none;
+}
+
+footer > nav > ul > li > p {
+  font-size: 1.8rem;
 }
 
 footer > nav > ul > li > a:hover {
