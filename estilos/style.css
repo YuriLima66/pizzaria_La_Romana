@@ -75,6 +75,8 @@ footer {
   text-align: left;
   border-top: 0.3rem solid white;
   padding: 1%;
+  position: relative;
+  bottom: -5rem;
 }
 
 footer>nav>ul>li>a {
@@ -120,6 +122,17 @@ footer>nav>ul>li>a:hover {
   background: white;
   border-radius: 0.2rem;
 }
+.patrocinadores{
+  width: 30rem;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  
+
+}
+.patrocinador{
+  width: 5rem;
+}
 
 @media (max-width: 768px) {
   .menu {
@@ -144,9 +157,7 @@ footer>nav>ul>li>a:hover {
 
   }
 
-  .menu>li>a:hover {
-    border-bottom: none;
-  }
+ 
 
   .logo {
     z-index: 2;
@@ -156,7 +167,9 @@ footer>nav>ul>li>a:hover {
   .hamburger {
     display: flex;
   }
-
+ .menu>li>a:hover {
+    border-bottom: none;
+  }
   header {
     display: flex;
     justify-content: space-between;
@@ -176,6 +189,10 @@ footer>nav>ul>li>a:hover {
     flex-direction: column;
     justify-content: space-evenly;
     list-style-type: none;
+  }
+
+  .patrocinadores{
+    flex-direction: row;
   }
 
   footer>nav>ul>.traco {
