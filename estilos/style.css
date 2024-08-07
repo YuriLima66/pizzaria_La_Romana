@@ -62,43 +62,38 @@ a {
 
 footer {
   list-style-type: none;
-  width: 99vw;
+  width: 100%;
   background-color: rgba(0, 0, 0, 0.658);
   color: white;
   text-align: left;
   border-top: 0.3rem solid white;
-  position: absolute;
-  bottom: -10rem;
+  padding: 1%;
 }
 
 footer > nav > ul > li > a {
   color: white;
-  font-size: 1.8rem;
+  font-size: 1.2rem;
   text-decoration: none;
+  transition: ease-in-out 0.1s;
+  
 }
 
-footer > nav > ul > li > p {
-  font-size: 1.8rem;
+footer > nav > ul > .traco{
+  border-right: 1px solid #ffffff;
+  padding: 0 5vw 0 0;
+  text-align: center;
+}
+
+footer > nav > ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  list-style-type: none;
 }
 
 footer > nav > ul > li > a:hover {
-  background-color: rgba(255, 255, 255, 0.932);
-  color: black;
-}
-
-.legenda_footer {
-  font-size: 1rem;
-}
-
-.legenda_footer > a {
-  font-size: 1rem;
-  color: white;
+  border-bottom: 2px solid white;
   text-decoration: none;
-}
-
-.legenda_footer > a:hover {
-  background-color: white;
-  font-size: 110%;
-  color: red;
-  text-align: right;
+  color: white;
+  padding-bottom: .05rem;
 }
