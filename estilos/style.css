@@ -67,7 +67,7 @@ footer {
   color: white;
   text-align: left;
   border-top: 0.3rem solid white;
-  padding-top: 1%;
+  padding: 1%;
 }
 
 footer > nav > ul > li > a {
