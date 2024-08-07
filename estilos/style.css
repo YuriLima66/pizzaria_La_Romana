@@ -168,7 +168,7 @@ footer>nav>ul>li>a:hover {
   }
 
   .logo {
-    margin: 0;
+   display: none;
   }
 
   footer>nav>ul {
