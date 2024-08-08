@@ -204,6 +204,11 @@ footer>nav>ul>li>a:hover {
   }
 }
 
+.menu_div { 
+  display: flex;
+  flex-direction: row;
+}
+
 .cad_um{ 
     width: 31rem; /* largura imagem 310 x310  nome 310x105 */
     height: 43rem;
@@ -245,5 +250,49 @@ footer>nav>ul>li>a:hover {
 }
 
 .menu_div {
-    padding: 5%;
+    padding: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.cad_dois{
+  width: 31rem; /* largura imagem 310 x310  nome 310x105 */
+  height: 43rem;
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.cad_tres {  
+  width: 31rem; /* largura imagem 310 x310  nome 310x105 */
+  height: 43rem;
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.cad_quatro { 
+  width: 31rem; /* largura imagem 310 x310  nome 310x105 */
+  height: 43rem;
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+
+}
+.img_cardapio_dois {
+  width: 31rem;
+  height: 31rem;
+  background: url(image.jpeg) royalblue ;
+
+}
+.texto_cardapio_dois { 
+  width: 31rem;
+    height: 10.5rem;
+    background-color: #e0e0e0;
+    font-size: 5rem;
+    text-align: center;
+
 }
