@@ -335,3 +335,17 @@ footer>nav>ul>li>a:hover {
   
 
 }
+
+dialog {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%; /* ajuste a largura do modal */
+  height: 80%; /* ajuste a altura do modal */
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
