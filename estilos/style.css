@@ -10,6 +10,9 @@
 body {
   background-color: #f50022;
 }
+main {
+  height: 75vh;
+}
 
 .menu {
   display: flex;
@@ -32,11 +35,11 @@ body {
   transition: ease-in-out 0.7s;
 }
 
-.menu>li {
+.menu > li {
   transition: ease-in-out 0.7s;
 }
 
-.menu>li>a:hover {
+.menu > li > a:hover {
   border-bottom: white solid 3px;
   padding-bottom: 1.7rem;
   transition: ease-in-out 0.2s;
@@ -62,7 +65,7 @@ a {
   height: 75vh;
 }
 
-.carousel-item>a {
+.carousel-item > a {
   text-align: none;
   color: white;
 }
@@ -79,31 +82,31 @@ footer {
   bottom: -5rem;
 }
 
-footer>nav>ul>li>a {
+footer > nav > ul > li > a {
   color: white;
   font-size: 1.2rem;
   text-decoration: none;
   transition: ease-in-out 0.1s;
 }
 
-footer>nav>ul>.traco {
+footer > nav > ul > .traco {
   border-right: 1px solid #ffffff;
   padding: 0 5vw 0 0;
   text-align: center;
 }
 
-footer>nav>ul {
+footer > nav > ul {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   list-style-type: none;
 }
 
-footer>nav>ul>li>a:hover {
+footer > nav > ul > li > a:hover {
   border-bottom: 2px solid white;
   text-decoration: none;
   color: white;
-  padding-bottom: .05rem;
+  padding-bottom: 0.05rem;
 }
 
 .hamburger {
@@ -122,15 +125,14 @@ footer>nav>ul>li>a:hover {
   background: white;
   border-radius: 0.2rem;
 }
-.patrocinadores{
+.patrocinadores {
   width: 30rem;
   margin: auto;
   display: flex;
   align-items: center;
-  
-
 }
-.patrocinador{
+.patrocinador {
+  margin-top: 2rem;
   width: 5rem;
 }
 
@@ -154,10 +156,7 @@ footer>nav>ul>li>a:hover {
     height: auto;
     z-index: 1;
     border-bottom: 3px solid white;
-
   }
-
- 
 
   .logo {
     z-index: 2;
@@ -167,7 +166,7 @@ footer>nav>ul>li>a:hover {
   .hamburger {
     display: flex;
   }
- .menu>li>a:hover {
+  .menu > li > a:hover {
     border-bottom: none;
   }
   header {
@@ -181,25 +180,25 @@ footer>nav>ul>li>a:hover {
   }
 
   .logo {
-   display: none;
+    display: none;
   }
 
-  footer>nav>ul {
+  footer > nav > ul {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     list-style-type: none;
   }
 
-  .patrocinadores{
+  .patrocinadores {
     flex-direction: row;
   }
 
-  footer>nav>ul>.traco {
+  footer > nav > ul > .traco {
     border-right: none;
   }
 
-  footer>nav>ul>li>a:hover {
+  footer > nav > ul > li > a:hover {
     border-bottom: none;
   }
 }
