@@ -242,9 +242,11 @@ footer>nav>ul>li>a:hover {
 .texto_cardapio { 
     width: 31rem;
     height: 10.5rem;
-    background-color: #e0e0e0;
+    background-color: #1b5e20;
     font-size: 5rem;
     text-align: center;
+    font: #d4af37;
+    color: #d4af37;
     
 
 }
@@ -291,8 +293,45 @@ footer>nav>ul>li>a:hover {
 .texto_cardapio_dois { 
   width: 31rem;
     height: 10.5rem;
-    background-color: #e0e0e0;
+    background-color: #1b5e20;
     font-size: 5rem;
     text-align: center;
+    color: #d4af37;
+
+}
+
+.img_cardapio_tres { 
+  width: 31rem;
+  height: 31rem;
+  background: url(image.jpeg) royalblue ;
+
+}
+
+.texto_cardapio_tres {
+  width: 31rem;
+    height: 10.5rem;
+    background-color: #1b5e20;
+    font-size: 5rem;
+    text-align: center;
+    color: #d4af37;
+
+}
+.img_cardapio_quatro { 
+  width: 31rem;
+  height: 31rem;
+  background: url(image.jpeg) royalblue ;
+
+}
+
+.texto_cardapio_quatro { 
+
+  width: 31rem;
+    height: 10.5rem;
+    background-color:#1b5e20;
+    font-size: 5rem;
+    text-align: center;
+    color: #d4af37;
+
+  
 
 }
