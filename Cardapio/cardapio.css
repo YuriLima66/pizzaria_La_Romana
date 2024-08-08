@@ -230,7 +230,7 @@ footer>nav>ul>li>a:hover {
     
 
 }
-.img_cardapio> img { 
+.img_cardapio > img, .img_cardapio_dois > img , .img_cardapio_tres >img , .img_cardapio_quatro > img { 
     width: 31rem;
     height: 31rem;
 }
