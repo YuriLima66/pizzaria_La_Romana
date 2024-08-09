@@ -66,6 +66,28 @@ a {
   height: 75vh;
 }
 
+#banner1 {
+  background: black url(../Banner/banner_1.png) center/cover no-repeat;
+
+}
+#banner2 {
+  background: black url(../Banner/banner_2.jpg) center/cover no-repeat;
+
+}
+#banner3 {
+  background: black url(../Banner/banner_3.png) center/cover no-repeat;
+
+}
+#banner4 {
+  background: black url(../Banner/banner_4.jpg) center/cover no-repeat;
+
+}
+#banner5 {
+  background: black url(../Banner/banner_5.jpeg) center/cover no-repeat;
+
+}
+
+
 .carousel-item>a {
   text-align: none;
   color: white;
@@ -195,6 +217,27 @@ footer>nav>ul>li>a:hover {
     list-style-type: none;
   }
 
+  #banner1 {
+    background: black url(../banners-celulares/1.png) top/cover no-repeat;
+  
+  }
+  #banner2 {
+    background: black url(../banners-celulares/2.png) bottom/cover no-repeat;
+  
+  }
+  #banner3 {
+    background: black url(../banners-celulares/3.png) bottom/cover no-repeat;
+  
+  }
+  #banner4 {
+    background: black url(../banners-celulares/4.png) center/cover no-repeat;
+  
+  }
+  #banner5 {
+    background: black url(../Banner/banner_4.jpg) center/cover no-repeat;
+  
+  }
+
   .patrocinadores {
     flex-direction: row;
   }
@@ -206,11 +249,12 @@ footer>nav>ul>li>a:hover {
   footer>nav>ul>li>a:hover {
     border-bottom: none;
   }
+
   #abrirCarrinho {
     right: 2rem;
     top: 0;
-    
-  
+
+
   }
 }
 
@@ -302,7 +346,7 @@ footer>nav>ul>li>a:hover {
   position: fixed;
   right: 2rem;
   bottom: 30rem;
-  background-color:cadetblue;
+  background-color: cadetblue;
   color: rgb(255, 255, 255);
   border: 3px solid rgb(255, 255, 255);
   border-radius: 5px;
