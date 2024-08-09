@@ -10,6 +10,7 @@
 body {
   background-color: #f50022;
 }
+
 main {
   height: 75vh;
 }
@@ -35,11 +36,11 @@ main {
   transition: ease-in-out 0.7s;
 }
 
-.menu > li {
+.menu>li {
   transition: ease-in-out 0.7s;
 }
 
-.menu > li > a:hover {
+.menu>li>a:hover {
   border-bottom: white solid 3px;
   padding-bottom: 1.7rem;
   transition: ease-in-out 0.2s;
@@ -65,7 +66,7 @@ a {
   height: 75vh;
 }
 
-.carousel-item > a {
+.carousel-item>a {
   text-align: none;
   color: white;
 }
@@ -82,27 +83,27 @@ footer {
   bottom: -5rem;
 }
 
-footer > nav > ul > li > a {
+footer>nav>ul>li>a {
   color: white;
   font-size: 1.2rem;
   text-decoration: none;
   transition: ease-in-out 0.1s;
 }
 
-footer > nav > ul > .traco {
+footer>nav>ul>.traco {
   border-right: 1px solid #ffffff;
   padding: 0 5vw 0 0;
   text-align: center;
 }
 
-footer > nav > ul {
+footer>nav>ul {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   list-style-type: none;
 }
 
-footer > nav > ul > li > a:hover {
+footer>nav>ul>li>a:hover {
   border-bottom: 2px solid white;
   text-decoration: none;
   color: white;
@@ -125,12 +126,14 @@ footer > nav > ul > li > a:hover {
   background: white;
   border-radius: 0.2rem;
 }
+
 .patrocinadores {
   width: 30rem;
   margin: auto;
   display: flex;
   align-items: center;
 }
+
 .patrocinador {
   margin-top: 2rem;
   width: 5rem;
@@ -166,9 +169,11 @@ footer > nav > ul > li > a:hover {
   .hamburger {
     display: flex;
   }
-  .menu > li > a:hover {
+
+  .menu>li>a:hover {
     border-bottom: none;
   }
+
   header {
     display: flex;
     justify-content: space-between;
@@ -183,7 +188,7 @@ footer > nav > ul > li > a:hover {
     display: none;
   }
 
-  footer > nav > ul {
+  footer>nav>ul {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -194,106 +199,114 @@ footer > nav > ul > li > a:hover {
     flex-direction: row;
   }
 
-  footer > nav > ul > .traco {
+  footer>nav>ul>.traco {
     border-right: none;
   }
 
-  footer > nav > ul > li > a:hover {
+  footer>nav>ul>li>a:hover {
     border-bottom: none;
+  }
+  #abrirCarrinho {
+    right: 2rem;
+    top: 0;
+    
+  
   }
 }
 
 /* Estilos para o cardápio */
 #cardapio {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .cardapio-item {
-    display: flex;
-    justify-content: space-between;
-    padding: 0.5rem 0;
-    border-bottom: 1px solid #ffffff4d;
-    align-items: center;
-    width: 60%;
-    font-size: 2rem;
-    color: white;
-    background-color: #9a0519;
-    padding: 1rem;
-  }
-  
-  .preco {
-    font-weight: bold;
-  }
-  
-  .btn-info {
-    margin-top: 1rem;
-  }
-  
-  .modal-header,
-  .modal-footer {
-    background-color: #0000007a;
-    color: white;
-  }
-  
-  .modal-body {
-    background-color: #9a0519;
-    color: white;
-  }
-  
-  .modal-img {
-    width: 100%;
-    height: auto;
-  }
-  
-  /* Estilos para o modal com maior especificidade */
-  .modal-dialog .modal-content .modal-title,
-  .modal-dialog .modal-content .modal-body p,
-  .modal-dialog .modal-content .modal-body button {
-    font-size: 1.6rem; /* Define o tamanho da fonte para 2rem */
-  }
-  
-  /* Estilos para o carrinho */
-  #carrinho {
-    height: 70vh;
-    width: 70vw;
-    position: fixed;
-    bottom: 50%;
-    right: 50%;
-    transform: translate(50% ,50%);
-    background-color: #fff;
-    padding: 1rem;
-    border-radius: 5px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-    display: none;
-    font-size: 2rem;
-    z-index: 999;
-  }
-  
-  /* Estilos para o carrinho no menu */
-  #carrinho-menu {
-    position: relative;
-    display: inline-block;
-    margin-left: 1rem;
-  }
-  
-  /* Estilos para o botão do carrinho */
-  #carrinho-menu img {
-    height: 45px;
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-  #abrirCarrinho{
-height: 4rem;
-width: 12rem;
-padding: 0%;
-position: fixed;
-right: 2rem;
-bottom: 30rem;
-background-color: rgba(0, 0, 0, 0.493);
-color: white;
-border: 3px solid white;
-border-radius: 5px;
-font-size: 1.5rem;
+.cardapio-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #ffffff4d;
+  align-items: center;
+  width: 60%;
+  font-size: 2rem;
+  color: white;
+  background-color: #9a0519;
+  padding: 1rem;
+}
 
-  }
+.preco {
+  font-weight: bold;
+}
+
+.btn-info {
+  margin-top: 1rem;
+}
+
+.modal-header,
+.modal-footer {
+  background-color: #0000007a;
+  color: white;
+}
+
+.modal-body {
+  background-color: #9a0519;
+  color: white;
+}
+
+.modal-img {
+  width: 100%;
+  height: auto;
+}
+
+/* Estilos para o modal com maior especificidade */
+.modal-dialog .modal-content .modal-title,
+.modal-dialog .modal-content .modal-body p,
+.modal-dialog .modal-content .modal-body button {
+  font-size: 1.6rem;
+  /* Define o tamanho da fonte para 2rem */
+}
+
+/* Estilos para o carrinho */
+#carrinho {
+  height: 70vh;
+  width: 70vw;
+  position: fixed;
+  bottom: 50%;
+  right: 50%;
+  transform: translate(50%, 50%);
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  display: none;
+  font-size: 2rem;
+  z-index: 999;
+}
+
+/* Estilos para o carrinho no menu */
+#carrinho-menu {
+  position: relative;
+  display: inline-block;
+  margin-left: 1rem;
+}
+
+/* Estilos para o botão do carrinho */
+#carrinho-menu img {
+  height: 45px;
+}
+
+#abrirCarrinho {
+  height: 4rem;
+  width: 12rem;
+  padding: 0%;
+  position: fixed;
+  right: 2rem;
+  bottom: 30rem;
+  background-color:cadetblue;
+  color: rgb(255, 255, 255);
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 5px;
+  font-size: 1.5rem;
+  transition: ease-in-out 0.5;
+
+}
