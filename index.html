@@ -23,15 +23,25 @@
     <ul class="menu">
       <li> <img class="logo" src="icone/la romana-Photoroom.png" alt="logo_la_romana" /></li>
       <li><a href="#">História</a></li>
-      <li><a href="#">Cardápio</a></li>
+      <li><a href="cardapio.html">Cardápio</a></li>
       <li><a href="#">Delivery</a></li>
       <li><a href="#">Contato</a></li>
       <li>
-        <a href="#">
-          <img class="logo_carrinho" src="icone/carrinho.png" alt="logo_carrinho" />
-        </a>
+        <!-- Carrinho no Menu -->
+        <div id="carrinho-menu"> 
+          <a href="#">
+            <img class="logo_carrinho" src="icone/carrinho.png" alt="logo_carrinho" />
+          </a>
+        </div>
       </li>
     </ul>
+      <!-- Carrinho -->
+      <div id="carrinho">
+        <h2>Seu Carrinho</h2>
+        <ul id="itensCarrinho"></ul>
+        <p id="totalCarrinho">Total: R$ 0,00</p>
+        <button id="fecharCarrinho" class="btn btn-secondary">Fechar</button>
+      </div>
   </header>
 
   <main>

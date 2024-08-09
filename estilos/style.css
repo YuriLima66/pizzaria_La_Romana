@@ -202,3 +202,83 @@ footer > nav > ul > li > a:hover {
     border-bottom: none;
   }
 }
+
+/* Estilos para o cardápio */
+#cardapio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .cardapio-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #ffffff4d;
+    align-items: center;
+    width: 60%;
+    font-size: 2rem;
+    color: white;
+    background-color: #9a0519;
+    padding: 1rem;
+  }
+  
+  .preco {
+    font-weight: bold;
+  }
+  
+  .btn-info {
+    margin-top: 1rem;
+  }
+  
+  .modal-header,
+  .modal-footer {
+    background-color: #0000007a;
+    color: white;
+  }
+  
+  .modal-body {
+    background-color: #9a0519;
+    color: white;
+  }
+  
+  .modal-img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Estilos para o modal com maior especificidade */
+  .modal-dialog .modal-content .modal-title,
+  .modal-dialog .modal-content .modal-body p,
+  .modal-dialog .modal-content .modal-body button {
+    font-size: 1.6rem; /* Define o tamanho da fonte para 2rem */
+  }
+  
+  /* Estilos para o carrinho */
+  #carrinho {
+    height: 70vh;
+    width: 70vw;
+    position: fixed;
+    bottom: 50%;
+    right: 50%;
+    transform: translate(50% ,50%);
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    display: none;
+    font-size: 2rem;
+    z-index: 999;
+  }
+  
+  /* Estilos para o carrinho no menu */
+  #carrinho-menu {
+    position: relative;
+    display: inline-block;
+    margin-left: 1rem;
+  }
+  
+  /* Estilos para o botão do carrinho */
+  #carrinho-menu img {
+    height: 45px;
+  }
