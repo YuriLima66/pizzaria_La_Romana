@@ -61,6 +61,10 @@ a {
 .logo_carrinho {
   height: 45px;
 }
+#itensCarrinho>li{
+  list-style-type: none;
+  font-size: 2rem;
+}
 
 .carousel-item {
   height: 75vh;
@@ -312,6 +316,7 @@ footer>nav>ul>li>a:hover {
 
 /* Estilos para o carrinho */
 #carrinho {
+  list-style-type: none;
   height: 70vh;
   width: 70vw;
   position: fixed;
