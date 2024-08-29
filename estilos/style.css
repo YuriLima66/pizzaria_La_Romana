@@ -165,12 +165,12 @@ footer>nav>ul>li>a:hover {
   width: 5rem;
 }
 .historia{
-  width: 50rem;
+  width: 90vw;
   font-size: 2.5rem;
   color: rgb(0, 0, 0);
   margin: 10vh auto;
   background-color: white;
-  padding: 5%;
+  padding: 5% 5% 30vh 5%;
   border-radius: 15px;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.644);
   
@@ -180,7 +180,8 @@ footer>nav>ul>li>a:hover {
   font-size: 4rem;
 }
 .historia>p{
-  text-align: center;
+  text-align: left;
+  text-indent: 20px;
 }
 @media (max-width: 768px) {
   .menu {
@@ -313,25 +314,28 @@ footer>nav>ul>li>a:hover {
 
 .modal-header,
 .modal-footer {
-  background-color: #0000007a;
+  background-color: #5a030f;
   color: white;
 }
 
 .modal-body {
   background-color: #9a0519;
   color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .modal-img {
-  width: 100%;
-  height: 70vh;
+  width: 300px;
+  height: 200px;
 }
 
 /* Estilos para o modal com maior especificidade */
 .modal-dialog .modal-content .modal-title,
 .modal-dialog .modal-content .modal-body p,
 .modal-dialog .modal-content .modal-body button {
-  font-size: 1.6rem;
+  font-size: 2rem;
   /* Define o tamanho da fonte para 2rem */
 }
 
